@@ -9,16 +9,29 @@
 
 <body>
 
-    
+        <!-- Header de base -->
 
     <header>
-        <a href="#"><img class="logo" src="./images/logo.png" alt="logo"></a>
-        <nav class="header">
-            <a href="#">mon compte </a>
-        </nav>
-        <a href="#" class="user-icon"><img src="./images/user-icon-white.png" alt=""></a>
+        <a href="./index.html"><img class="logo" src="./images/logo.png" alt="logo"></a>     
+        <a class="header" href="#">mon compte </a>
+        <a href="#" class="user-icon"><img src="./images/user-icon-white.png" alt="icone d'utilisateur"></a>
     </header>
 
+        <!-- Le deuxième header avec menu burger -->
+
+    <div class="secondary-header">
+        <button id="menuButton" class="menu-button">☰</button>
+
+        <div id="dropdownMenu" class="dropdown-menu">
+            <a href="./locaboard.html">Locaboard</a>
+            <a href="./produits.html">Produits</a>
+            <a href="./rayons.html">Rayons</a>
+            <a href="./marques.html">Marques</a>
+        </div>
+    </div>
+
 </body>
+
+<script src="./scripts/menu-burger.js"></script>
 
 </html>
