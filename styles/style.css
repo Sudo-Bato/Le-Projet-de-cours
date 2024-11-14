@@ -3,6 +3,9 @@ body {
   color: #1F2937;
   margin: 0;
   padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Header */
@@ -52,7 +55,7 @@ header .logo {
 
 .dropdown-menu {
   display: none;
-  padding: 10px 0;
+  padding: 0px;
   text-align: center;
 }
 
@@ -67,4 +70,21 @@ header .logo {
 .dropdown-menu a:hover {
   background-color: #E5E7EB;
   border-radius: 4px;
+}
+
+/* footer */
+
+footer {
+  background-color:#1F2937;
+  color: #E5E7EB;
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+  font-size: 1.4rem;
+}
+
+
+
+footer a {
+  color: #E5E7EB;
 }
