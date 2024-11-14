@@ -14,10 +14,18 @@ align-items: center;
 justify-content: space-between;
 }
 
-header .menu a {
+header .header a {
   color: #E5E7EB;
-  margin-left: 20px;
+  margin-left: auto;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 24px;
+  margin-right: 20px;
 }
 
+header .header {
+  margin-left: auto;
+}
+
+header .logo {
+  width: 50px;
+}
