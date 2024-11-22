@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../styles/inscription.css" />
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Connexion et Inscription</title>
+  </head>
+  <body>
+
+    <header>
+      <a href="../index.html"><img class="logo" src="../images/logo.png" alt="logo"></a>     
+      <a class="header" href="../html/inscription.html">mon compte </a>
+      <a href="../html/inscription.html" class="user-icon"><img src="../images/user-icon-white.png" alt="icone d'utilisateur"></a>
+    </header>
+
+
+    <div class="container">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form action="#" class="sign-in-form">
+            <h2 class="title">Connectez-vous !</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Identifiant" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Mot de passe" />
+            </div>
+            <input type="submit" value="connexion" class="btn solid" />
+            <div class="social-media">
+            </div>
+          </form>
+          <form action="#" class="sign-up-form">
+            <h2 class="title">Inscrivez-vous !</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Identifiant" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="Email" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Mot de passe" />
+            </div>
+            <div class="input-field">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Mot de passe" />
+              </div>
+            <input type="submit" class="btn" value="Inscription" />
+            <div class="social-media">
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>Vous êtes nouveaux ?</h3>
+            <p>
+              Inscrivez-vous!
+            </p>
+            <button class="btn transparent" id="sign-up-btn">
+              s'inscrire
+            </button>
+          </div>
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3> Déjà un compte ?</h3>
+            <p>
+                Si vous êtes déjà passé par ici, cliquez !
+            </p>
+            <button class="btn transparent" id="sign-in-btn">
+              Connexion
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../scripts/inscription.js"></script>
+  </body>
+</html>

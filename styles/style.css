@@ -68,8 +68,17 @@ header .logo {
 }
 
 .dropdown-menu a:hover {
-  background-color: #E5E7EB;
+  background-color: #ccc;
   border-radius: 4px;
+}
+
+#search-div {
+  display: inline-block;
+  gap: 8px;
+}
+
+.loupe {
+width: 20px;
 }
 
 /* footer */
