@@ -1,6 +1,4 @@
-const menuButton = document.getElementById('menuButton');
-const dropdownMenu = document.getElementById('dropdownMenu');
-
-menuButton.addEventListener('click', function() {
-  dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
+document.getElementById('burgerButton').addEventListener('click', () => {
+  const menuText = document.getElementById('menuText');
+  menuText.style.display = menuText.style.display === 'none' || menuText.style.display === '' ? 'block' : 'none';
 });

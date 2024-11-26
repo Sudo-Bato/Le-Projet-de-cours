@@ -35,50 +35,69 @@ header .logo {
   width: 50px;
 }
 
-/* Deuxieme header */
+header .user-icon img {
+  width: 50px;
+}
 
-.secondary-header {
-  background-color: #E5E7EB;
-  padding: 10px;
+/* Menu burger */
+.horizontal-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ccc; 
+  padding: 10px 20px;
+}
+
+.menu-left {
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 
-.menu-button {
+.burger-button {
   background: none;
   border: none;
-  font-size: 24px;
+  font-size: 20px;
   cursor: pointer;
   color: #1F2937;
-  padding-left: 20px;
 }
 
-.dropdown-menu {
-  display: none;
-  padding: 0px;
-  text-align: center;
+.menu-text {
+  display: none; 
+  font-size: 16px;
+  color: #1F2937;
 }
 
-.dropdown-menu a {
-  display: inline-block;
+.menu-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-bar {
+  padding: 5px 10px;
+  border: 1px solid #9CA3AF;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+#menuText a {
   padding: 8px 20px;
   color: #1F2937;
   text-decoration: none;
   font-size: 18px;
+  
 }
 
-.dropdown-menu a:hover {
-  background-color: #ccc;
-  border-radius: 4px;
-}
-
-#search-div {
-  display: inline-block;
-  gap: 8px;
-}
-
-.loupe {
-width: 20px;
+#menuText a:hover {
+  background-color: rgba(128, 128, 128, 0.397);
+  border-radius: 10px;
 }
 
 /* footer */

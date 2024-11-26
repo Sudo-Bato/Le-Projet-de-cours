@@ -17,23 +17,30 @@
         <a href="./html/inscription.html" class="user-icon"><img src="./images/user-icon-white.png" alt="icone d'utilisateur"></a>
     </header>
 
-        <!-- Le deuxième header avec menu burger -->
+        <!-- menu burger -->
 
-    <div class="secondary-header">
-        <button id="menuButton" class="menu-button">☰</button>
+        <div class="horizontal-menu">
+            <div class="menu-left">
+                <button class="burger-button" id="burgerButton">
+                    ☰
+                </button>
+                <span id="menuText" class="menu-text">
+                    <a href="">Menu</a>
+                    <a href="">locaboard</a>
+                    <a href="">Produits</a>
+                </span>
+            </div>
 
-        <div id="dropdownMenu" class="dropdown-menu">
-            <a href="">Locaboard</a>
-            <a href="">Produits</a>
-            <a href="">Rayons</a>
-            <a href="">Marques</a>
-            <div id="search-div">
-                <input type="text" name="" id="search">
-                <img src="./images/loupe.png" alt="loupe" class="loupe">
+            
+            <div class="menu-right">
+
+                <input type="text" class="search-bar" placeholder="Rechercher...">
+
+                <a href="" class="search-icon" ><img src="./images/loupe.png" 
+                    alt="Icône de recherche" class="search-icon">
+                </a>
             </div>
         </div>
-    </div>
-
 
 
     <footer class="footing">
