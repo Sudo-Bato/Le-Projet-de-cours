@@ -3,12 +3,38 @@
     text-align: center;
 }
 
+.bg2 H1 {
+    font-size: 3rem;
+    color: #F9FAF8;
+}
+
 H1 {
-    font-size: 3rem
+    font-size: 3rem;
 }
 
 #history {
     font-size: 1.5rem;
+    color: #F9FAF8;
+}
+
+/* bg2 */
+
+.bg2 {
+    background-color: #45618694;
+}
+
+.bg1 {
+    background-color: rgb(170, 186, 201);
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.bg1 a {
+    color: #F9FAF8;
+}
+
+.bg3 {
+    background-color: rgb(209, 220, 228);
 }
 
 .sizedd {
@@ -56,7 +82,7 @@ iframe {
     justify-content: flex-end;
     padding-bottom: 20px; 
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 /* Icone utilisateur en haut à droite */
